@@ -1,6 +1,6 @@
 # 2dsim06
 
-![QtExamples](/res/img/WhichIsNice.png)
+![QtExamples](/res/img/WhichIsNice.jpg)
 
 Examples for my own use of ways to do certain things in Qt/C++.  Hobbyist-quality code; caveat emptor.
 

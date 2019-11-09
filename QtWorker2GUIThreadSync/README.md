@@ -1,6 +1,6 @@
 # 2dsim06
 
-![QtExamples/QtWorker2GUIThreadSync](/res/img/WhichIsNice.png)
+![QtExamples/QtWorker2GUIThreadSync](/res/img/WhichIsNice.jpg)
 
 A simple example of how to have a worker thread that performs the business/sim logic, which is represented graphically in the GUI MainWindow.cpp thread, and how to do basic synchronization between these two threads so the whole thing doesn't crash, and the data doesn't get corrupted, and all that kind of stuff.
 

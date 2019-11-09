@@ -1,6 +1,6 @@
 # 2dsim06
 
-![QtExamples/projectname](/res/img/WhichIsNice.png)
+![QtExamples/projectname](/res/img/WhichIsNice.jpg)
 
 Project Description
 
