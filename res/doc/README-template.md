@@ -1,11 +1,8 @@
 # 2dsim06
 
-![QtExamples](/res/img/WhichIsNice.png)
+![QtExamples/projectname](/res/img/WhichIsNice.png)
 
-Examples for my own use of ways to do certain things in Qt/C++.  Hobbyist-quality code; caveat emptor.
-
-#PROJECTS
-* [QtWorker2GUIThreadSync](/QtWorker2GUIThreadSync/README.md)
+Project Description
 
 #TODO
 

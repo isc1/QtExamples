@@ -41,3 +41,12 @@ target_wrapper.*
 
 # QtCreator CMake
 CMakeLists.txt.user*
+
+###
+# isc1 changes
+###
+Thumbs.db
+*.conf
+doxygen
+/.project
+*.autosave.*
