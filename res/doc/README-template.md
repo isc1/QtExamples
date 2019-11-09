@@ -1,6 +1,6 @@
 # QtExamples/projectname
 
-![QtExamples/projectname](/res/img/WhichIsNice.jpg)
+![QtExamples/projectname](/res/img/Girlie-blep.jpg)
 
 Project Description
 
@@ -16,4 +16,4 @@ _This code was written on Desktop Qt 5.13.0 MinGW 64-bit (Windows), and might re
 
 THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it.
 
-![Girlie Blep](/res/img/Girlie-blep.jpg) 
+![Girlie Blep](/res/img/WhichIsNice.jpg) 

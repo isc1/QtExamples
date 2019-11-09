@@ -1,6 +1,6 @@
 # QtExamples
 
-![QtExamples](/res/img/WhichIsNice.jpg)
+![QtExamples](/res/img/Girlie-blep.jpg)
 
 Examples for my own use of ways to do certain things in Qt/C++.  Hobbyist-quality code; caveat emptor.
 
@@ -19,4 +19,4 @@ _This code was written on Desktop Qt 5.13.0 MinGW 64-bit (Windows), and might re
 
 _THIS CODE IS UNSUPPORTED_ and no one is available to respond to questions or comments about it.
 
-![Girlie Blep](/res/img/Girlie-blep.jpg) 
+![Girlie Blep](/res/img/WhichIsNice.jpg) 

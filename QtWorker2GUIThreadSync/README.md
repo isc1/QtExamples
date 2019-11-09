@@ -1,6 +1,6 @@
 # QtExamples/QtWorker2GUIThreadSync
 
-![QtExamples/QtWorker2GUIThreadSync](/res/img/WhichIsNice.jpg)
+![QtExamples/QtWorker2GUIThreadSync](/res/img/Girlie-blep.jpg)
 
 A simple example of how to have a worker thread that performs the application logic, which is represented graphically in the GUI MainWindow.cpp thread, and how to do basic synchronization between these two threads so the whole thing doesn't crash, and the data doesn't get corrupted, and all that kind of stuff.
 
@@ -23,4 +23,4 @@ _This code was written on Desktop Qt 5.13.0 MinGW 64-bit (Windows), and might re
 
 THIS CODE IS UNSUPPORTED and no one is available to respond to questions or comments about it.
 
-![Girlie Blep](/res/img/Girlie-blep.jpg) 
+![Girlie Blep](/res/img/WhichIsNice.jpg) 
