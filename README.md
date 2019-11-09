@@ -5,7 +5,7 @@
 Examples for my own use of ways to do certain things in Qt/C++.  Hobbyist-quality code; caveat emptor.
 
 #PROJECTS
-* [QtWorker2GUIThreadSync](/QtWorker2GUIThreadSync/README.md)
+* [QtWorker2GUIThreadSync](https://github.com/isc1/QtExamples/tree/master/QtWorker2GUIThreadSync)
 
 #TODO
 
