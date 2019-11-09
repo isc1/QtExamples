@@ -2,12 +2,19 @@
 
 ![QtExamples/QtWorker2GUIThreadSync](/res/img/WhichIsNice.jpg)
 
-A simple example of how to have a worker thread that performs the business/sim logic, which is represented graphically in the GUI MainWindow.cpp thread, and how to do basic synchronization between these two threads so the whole thing doesn't crash, and the data doesn't get corrupted, and all that kind of stuff.
+A simple example of how to have a worker thread that performs the application logic, which is represented graphically in the GUI MainWindow.cpp thread, and how to do basic synchronization between these two threads so the whole thing doesn't crash, and the data doesn't get corrupted, and all that kind of stuff.
+
+The GUI MainWindow.cpp thread is the only thread that can change Qt GUI/Widget type display stuff.  Other threads are not permitted to do that.
+
+The Application.cpp thread performs the application logic.  When the app logic causes a change that needs to be reflected in GUI objects, then the app logic data member that has GUI stuff associated with it gets it's new GUI info added to object.guiDatamember member variables (e.g. object.guiNewX = 100;), and the app object gets added to a GUIUpdateQueue.
+
+The GUI MainWindow.cpp thread reads from this queue and updates the GUI stuff.  The GUI thread also receives user input and other events, and adds them to an ApplicationInput queue, for the app thread to process.
+
+This is basically a two-way (or circular) producer-consumer arrangement.
 
 #TODO
 
-* thing1
-* thing2
+* go read about producer-consumer so I don't do anything obviously stupid
 
 
 _This code is copyright 2019 inhabited.systems and is shared under the [MIT License](https://choosealicense.com/licenses/mit/) which means you can use it without asking me._
