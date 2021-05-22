@@ -47,6 +47,7 @@ void AppThread::updateSquaresVector()
             // qrand()%2 is the "old" way, apparently QRandomGenerator::global()->bounded(2) is the "new" way
             // comment one or the other of the following two lines out to see the difference between the two PRNGs
             // (can only have one line uncommented at a time)
+//            int newredvalue = gSquaresVector[x][y].redvalue + 1;
             int newredvalue = gSquaresVector[x][y].redvalue + qrand()%2+1;
 //            int newredvalue = gSquaresVector[x][y].redvalue + QRandomGenerator::global()->bounded(2)+1;
 

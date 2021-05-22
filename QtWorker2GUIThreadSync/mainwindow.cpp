@@ -26,7 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
     , mWindowViewOffset(0) // 10
     , mSceneWidth(squaresrectsize*squaresnumberofcolumns)
     , mSceneHeight(squaresrectsize*squaresnumberofrows)
-    , mEventLoopUpdateInterval(3)
+    , mEventLoopUpdateInterval(10)
 {
     qDebug() << mProgramName << __FUNCTION__ << " Started";
 

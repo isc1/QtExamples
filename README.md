@@ -7,6 +7,15 @@ Examples for my own use of ways to do certain things in Qt/C++.  Hobbyist-qualit
 #PROJECTS
 * [QtWorker2GUIThreadSync](https://github.com/isc1/QtExamples/tree/master/QtWorker2GUIThreadSync)
 
+#IDEAS FOR PROJECTS
+* Example of how to relocate QGraphicsItem origin coordinate from upper left of bounding rect to center of graphics item.
+* Example of how to use collidesWithItem to do collision detection.
+* Example of how to check objects of different types returned by collidesWithItem.
+* Example of how to disable Windows key held down delay.
+* Container examples
+* QProcess & Interprocess Communication Examples
+* QSocket example
+
 #TODO
 
 * thing1

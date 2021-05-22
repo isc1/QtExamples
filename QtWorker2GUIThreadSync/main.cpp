@@ -11,7 +11,7 @@ int squaresnumberofcolumns = 100;
 extern int squaresnumberofrows;
 int squaresnumberofrows = 50;
 extern int squaresrectsize;
-int squaresrectsize = 15;
+int squaresrectsize = 5;
 extern bool readytorun;
 bool readytorun = false;
 
